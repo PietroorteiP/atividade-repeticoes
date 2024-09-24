@@ -1,0 +1,16 @@
+programa {
+  funcao inicio() {
+    real cidA = 80000
+    real cidB = 200000
+    inteiro x = 0
+
+    enquanto(cidA < cidB) {
+    cidA = cidA + (cidA * 3/100)
+    cidB = cidB + (cidB *1.5/100)
+
+    x = x +1
+    }
+    escreva("O número de habitantes será ultrapassado em ", x ," anos")
+  }
+  
+}
